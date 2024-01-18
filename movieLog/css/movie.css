@@ -1,0 +1,20 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+img:hover {
+  opacity: .7;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.searchInstructions {
+  display: block;
+  text-align: center;
+}
+
+.none {
+  display: none;
+}
